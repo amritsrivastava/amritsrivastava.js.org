@@ -6,15 +6,14 @@ description: Amrit Srivastava
 
 # User settings
 username: Amrit Srivastava
-user_title: Web Developer
+user_title: Full Stack Developer
 email: srivastava.amrit1999@gmail.com
-twitter_username: AmritAmrit1999
-github_username:  amritsrivastava
-gplus_username:  u/0/105529333758751781803
-facebook_username: amrit.srivastava.946
+twitter_username: hi_amrit
+github_username: amritsrivastava
+facebook_username: amritsri1999
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: ''
 
-exclude: ['package.json', 'src' , 'node_modules']
+exclude: ['package.json', 'src', 'node_modules']
