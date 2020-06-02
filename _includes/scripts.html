@@ -5,6 +5,27 @@
 <script src="/assets/js/popper.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
 
+<!-- Owl Carousel -->
+<script src="/assets/js/owl.carousel.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $('.owl-carousel').owlCarousel({
+      center: true,
+      items: 1,
+      loop: true,
+      margin: 10,
+      autoplay: true,
+      dots: false,
+      lazyLoad: true,
+      autoplayTimeout: '2000',
+      responsive: {
+        500: {
+          dots: true,
+        },
+      },
+    });
+  });
+</script>
 <!-- Navbar Script -->
 <script>
   $(document).ready(function () {

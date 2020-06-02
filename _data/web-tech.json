@@ -1,0 +1,95 @@
+[
+  {
+    "name": "React.js",
+    "img": "/assets/img/tech/react.jpg",
+    "progress": "90",
+    "color": "bg-info"
+  },
+
+  {
+    "name": "Node.js",
+    "img": "/assets/img/tech/node.jpg",
+    "progress": "80",
+    "color": "bg-success"
+  },
+  {
+    "name": "MongoDB",
+    "img": "/assets/img/tech/mongo.jpg",
+    "progress": "80",
+    "color": "bg-success"
+  },
+  {
+    "name": "Webpack",
+    "img": "/assets/img/tech/webpack.jpg",
+    "progress": "60",
+    "color": "bg-info"
+  },
+  {
+    "name": "Gatsby",
+    "img": "/assets/img/tech/gatsby.jpg",
+    "progress": "85"
+  },
+  {
+    "name": "Javascript",
+    "img": "/assets/img/tech/js.jpg",
+    "progress": "80",
+    "color": "bg-warning"
+  },
+  {
+    "name": "Git",
+    "img": "/assets/img/tech/git.jpg",
+    "progress": "90",
+    "color": "bg-danger"
+  },
+  {
+    "name": "Figma",
+    "img": "/assets/img/tech/figma.jpg",
+    "progress": "85",
+    "color": "bg-danger"
+  },
+  {
+    "name": "SCSS",
+    "img": "/assets/img/tech/scss.jpg",
+    "progress": "90",
+    "color": "bg-danger"
+  },
+  {
+    "name": "HTML",
+    "img": "/assets/img/tech/html.jpg",
+    "progress": "90",
+    "color": "bg-danger"
+  },
+  {
+    "name": "CSS",
+    "img": "/assets/img/tech/css.jpg",
+    "progress": "90"
+  },
+  {
+    "name": "MySQL",
+    "img": "/assets/img/tech/sql.jpg",
+    "progress": "85",
+    "color": "bg-warning"
+  },
+  {
+    "name": "Redux",
+    "img": "/assets/img/tech/redux.jpg",
+    "progress": "50"
+  },
+  {
+    "name": "GraphQL",
+    "img": "/assets/img/tech/graphql.jpg",
+    "progress": "55",
+    "color": "bg-danger"
+  },
+  {
+    "name": "Jasmine",
+    "img": "/assets/img/tech/jasmine.jpg",
+    "progress": "40",
+    "color": "bg-info"
+  },
+  {
+    "name": "Typescript",
+    "img": "/assets/img/tech/ts.jpg",
+    "progress": "60"
+  }
+]

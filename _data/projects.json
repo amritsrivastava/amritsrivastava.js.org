@@ -1,0 +1,99 @@
+[
+  {
+    "name": "File Tracking System",
+    "desc": "Application to track movement of file in a department. Integrated QR Code for tracking files movements. Provided automated email notification alert service.",
+    "img": "/assets/img/projects/file-tracking-system.png",
+    "github": "https://github.com/amritsrivastava/File-Tracking-System-Server",
+    "preview": "fileTrackingSystem",
+    "images": [
+      "/assets/img/projects/file-tracking-system/1.png",
+      "/assets/img/projects/file-tracking-system/2.png",
+      "/assets/img/projects/file-tracking-system/3.png",
+      "/assets/img/projects/file-tracking-system/4.png",
+      "/assets/img/projects/file-tracking-system/5.png",
+      "/assets/img/projects/file-tracking-system/6.png",
+      "/assets/img/projects/file-tracking-system/7.png",
+      "/assets/img/projects/file-tracking-system/8.png",
+      "/assets/img/projects/file-tracking-system/9.png",
+      "/assets/img/projects/file-tracking-system/10.png",
+      "/assets/img/projects/file-tracking-system/11.png",
+      "/assets/img/projects/file-tracking-system/12.png"
+    ]
+  },
+  {
+    "name": "Card Share Application",
+    "desc": "A MERN Stack based application to manage business cards. Some key features are Custom Cards, QR based sharing, Searching and Filtering options.",
+    "img": "/assets/img/projects/card-share.png",
+    "preview": "cardShare",
+    "link": "http://card-share.surge.sh/",
+    "github": "https://github.com/amritsrivastava/card-share",
+    "images": [
+      "/assets/img/projects/card-share/1.png",
+      "/assets/img/projects/card-share/2.png",
+      "/assets/img/projects/card-share/3.png",
+      "/assets/img/projects/card-share/4.png",
+      "/assets/img/projects/card-share/5.png",
+      "/assets/img/projects/card-share/6.png",
+      "/assets/img/projects/card-share/7.png",
+      "/assets/img/projects/card-share/8.png",
+      "/assets/img/projects/card-share/9.png",
+      "/assets/img/projects/card-share/10.png",
+      "/assets/img/projects/card-share/11.png",
+      "/assets/img/projects/card-share/12.png"
+    ]
+  },
+  {
+    "name": "Restaurant E-Commerce WebApp",
+    "desc": "An MERN Stack based dynamic application to display menu and dishes of a restaurant. Providing the feature of user reviews and rating.",
+    "img": "/assets/img/projects/confusion.png",
+    "github": "https://github.com/amritsrivastava/Confusion-React-App",
+    "preview": "confusion",
+    "images": [
+      "/assets/img/projects/confusion/1.png",
+      "/assets/img/projects/confusion/2.png",
+      "/assets/img/projects/confusion/3.png",
+      "/assets/img/projects/confusion/4.png",
+      "/assets/img/projects/confusion/5.png",
+      "/assets/img/projects/confusion/6.png",
+      "/assets/img/projects/confusion/7.png",
+      "/assets/img/projects/confusion/8.png"
+    ]
+  },
+  {
+    "name": "JECRC Model United Nations",
+    "desc": "Official website of JECRC MUN, developed using Gatsby.",
+    "img": "/assets/img/projects/jecrc-mun.png",
+    "link": "https://www.jecrcmun.in/"
+  },
+  {
+    "name": "Book Reads Application",
+    "desc": "React based single page application for managing books. Integrated book reads API for managing books records.",
+    "img": "/assets/img/projects/book-reads.png",
+    "link": "http://book_read.surge.sh/"
+  },
+  {
+    "name": "JECRC Foundation Website",
+    "desc": "Official website of JECRC Foundation, having information regarding departments, activities and faculties.",
+    "img": "/assets/img/projects/jecrc.png",
+    "link": "https://jecrc.in/"
+  },
+  {
+    "name": "KS Technological Solutions",
+    "desc": "Website developed under internship in the above company. Developed using HTML and Bootstrap.",
+    "img": "/assets/img/projects/ks.png",
+    "link": "https://www.kstechsolutions.com/"
+  },
+  {
+    "name": "Event Management Application",
+    "desc": "React based application to manage RSVP of guests. Developed while learning React",
+    "img": "/assets/img/projects/alohmora.png",
+    "link": "http://alohomora.surge.sh"
+  },
+  {
+    "name": "Pure CSS base YouTube UI",
+    "desc": "Tried to duplicated the YouTube UI using Pure CSS.",
+    "img": "/assets/img/projects/youtube-ui.png",
+    "link": "https://amrit.js.org/youtube_ui/",
+    "github": "https://github.com/amritsrivastava/youtube_ui"
+  }
+]

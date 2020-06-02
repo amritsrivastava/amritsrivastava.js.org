@@ -1,76 +1,16 @@
-<div class="container">
-  <div class="user-details">
-    <h3>whoami?</h3>
-    <p style="font-size: 20px;">
-      Hey there, I am Amrit Srivastava.<br />
-      I am pursuing engineering in computer science domain.<br />
-      I like to code, cook, debate, travel and listen to music.<br />
-      I am an introvert and for those who don't know me.<br /><br />
-      Presently I began working on python and interested in the field of web
-      devlopment<br />
-      Seeking for an internship in Web Development.<br />
-      I also contribute to open source at <b><i>Fossasia</i></b> and an aspirant
-      for the <b><i>GSoC</i></b> 2k18<br />
-      I like to write algos and intrested in competitive and sports
-      programming.<br />
-      Moreover I know programming languages like Java, C and C++ and have
-      created few projects using these. Presently I am working on a project for
-      improving performance of smartphones using storage optimization techniques
-      and going to work on another project for creating an advance text editor
-      for programmers.<br /><br />
-      To know more about me you can view my resume from
-      <a href="https://drive.google.com/open?id=0ByXkN32FXiAALTdPdktFS0ZMU28"
-        >here</a
-      >.
-    </p>
-  </div>
-  <div class="row user">
-    <div class="four columns">
-      <h4>Design</h4>
-      <i class="devicon-html5-plain-wordmark"></i>
-      <i class="devicon-bootstrap-plain-wordmark colored"></i>
-      <img alt="ai" src="/assets/img/icons/ai.svg" height="70px" width="70px" />
-      <p style="font-size: 20px;">
-        For designing I use HTML5, CSS, Bootstrap, Adobe Illustrater and Adobe
-        Photoshop
-      </p>
-    </div>
-    <div class="four columns">
-      <h4>Code</h4>
-      <img alt="pc" src="/assets/img/icons/pc.png" height="70px" width="70px" />
-      <img
-        alt="gcc"
-        src="/assets/img/icons/gcc.png"
-        height="70px"
-        width="70px"
-      />
-      <img
-        alt="eclips"
-        src="/assets/img/icons/eclips.ico"
-        height="70px"
-        width="70px"
-      />
-      <p style="font-size: 20px;">
-        For coding I use Pychar for python, and standerd gcc compiler for C/C++.
-        I also use eclipse for devlopment purpose.
-      </p>
-      <p></p>
-    </div>
-
-    <div class="four columns">
-      <h4>Tools</h4>
-      <i class="devicon-git-plain"></i>
-      <img
-        alt="sublim"
-        src="/assets/img/icons/sublime.png"
-        height="70px"
-        width="70px"
-      />
-      <i class="devicon-atom-original-wordmark"></i>
+<div class="container-fluid pt-5">
+  <div class="row justify-content-center my-5">
+    <div class="col-md-4 mx-3">
+      <h1 class="mb-0">About Me</h1>
+      <img src="/assets/img/line.png" class="mb-5" />
+      {% for data in site.data.about %}
       <p>
-        I use tools like github as version control system and and advance text
-        editor like atom and subilm
+        {{ data }}
       </p>
+      {% endfor %}
+    </div>
+    <div class="col-md-4 mx-3">
+      <img src="/assets/img/about.png" class="img-fluid" alt="Programming" />
     </div>
   </div>
 </div>
