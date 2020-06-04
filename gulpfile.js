@@ -80,7 +80,7 @@ gulp.task('watch', function () {
   gulp.watch('src/js/**/*.js', ['js']);
   gulp.watch('src/img/**/*.{jpg,png,gif}', ['imagemin']);
   gulp.watch(
-    ['*html', '_includes/*html', '_layouts/*.html'],
+    ['*html', '_includes/*html', '_layouts/*.html', '_data/*.json'],
     ['jekyll-rebuild']
   );
 });

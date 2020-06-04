@@ -1,0 +1,45 @@
+<div class="container-fluid" style="padding-top: 100px;">
+  <div class="mx-auto text-center">
+    <h1 class="text-center mt-3 mb-0">Experience 📌</h1>
+    <img src="/assets/img/line.png" class="mb-5" />
+  </div>
+  <div class="d-flex flex-wrap justify-content-center">
+    {% for exp in site.data.experience %}
+    <div class="experience-card col-md-8 col-xl-6">
+      <div class="row h-100">
+        <div
+          class="col-lg-4 d-flex align-items-center justify-content-center bg-dark"
+        >
+          <div class="text-center mt-2">
+            <img
+              src="{{exp.logo}}"
+              alt="{{exp.company}}"
+              width="150"
+              height="150"
+              class="rounded my-2"
+            />
+            <h3 class="text-white mb-2">{{exp.company}}</h3>
+          </div>
+        </div>
+        <div
+          class="col-lg-8 d-flex align-items-center justify-content-start py-3 px-sm-5"
+        >
+          <div>
+            {% for pos in exp.positions %}
+            <h4>{{ pos.desg }}</h4>
+            <h6>({{ pos.duration }})</h6>
+            <ul>
+              {% for data in pos.desc %}
+              <li>
+                {{ data }}
+              </li>
+              {% endfor %}
+            </ul>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

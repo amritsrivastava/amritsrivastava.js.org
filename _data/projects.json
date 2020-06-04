@@ -44,7 +44,7 @@
   },
   {
     "name": "Restaurant E-Commerce WebApp",
-    "desc": "An MERN Stack based dynamic application to display menu and dishes of a restaurant. Providing the feature of user reviews and rating.",
+    "desc": "A MERN Stack based dynamic application to display menu and dishes of a restaurant. Providing the feature of user reviews and rating.",
     "img": "/assets/img/projects/confusion.png",
     "github": "https://github.com/amritsrivastava/Confusion-React-App",
     "preview": "confusion",
@@ -91,7 +91,7 @@
   },
   {
     "name": "Pure CSS base YouTube UI",
-    "desc": "Tried to duplicated the YouTube UI using Pure CSS.",
+    "desc": "Tried to duplicate the YouTube UI using Pure CSS.",
     "img": "/assets/img/projects/youtube-ui.png",
     "link": "https://amrit.js.org/youtube_ui/",
     "github": "https://github.com/amritsrivastava/youtube_ui"

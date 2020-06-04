@@ -3,6 +3,10 @@ $sec: #4b5664;
 $purple: #54516a;
 $cut: 768px;
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   overflow-x: hidden;
@@ -149,7 +153,8 @@ body {
 .down {
   color: #fff;
   position: absolute;
-  bottom: 25px;
+  bottom: 60px;
+  right: 50px;
   width: 100%;
   margin: 0 auto;
   display: block;
@@ -199,13 +204,25 @@ body {
   }
 }
 
-.card-custom {
+.project-card {
   box-shadow: 3px 3px 5px #f0eeee, -3px -3px 5px #f0eeee;
   margin: 10px 2px;
   width: 300px;
   @media only screen and (min-width: $cut) {
     margin: 15px;
     width: 350px;
+  }
+}
+
+.experience-card {
+  border: 1px solid #d5d5d5;
+  box-shadow: 3px 3px 5px #f0eeee, -3px -3px 5px #f0eeee;
+  margin: 10px 2px;
+  min-height: 300px;
+  // width: 300px;
+  @media only screen and (min-width: $cut) {
+    margin: 15px;
+    // width: 350px;
   }
 }
 

@@ -1,0 +1,110 @@
+[
+  {
+    "company": "Metacube Software Pvt. Ltd.",
+    "logo": "/assets/img/company-logo/metacube.jpeg",
+    "positions": [
+      {
+        "desg": "MERN Stack Developer, Intern",
+        "duration": "May 2019 - June 2019",
+        "desc": [
+          "Developed an application to share business cards.",
+          "Worked on the prototype, front-end, and back-end."
+        ]
+      }
+    ]
+  },
+  {
+    "company": "Wisflux Tech Labs",
+    "logo": "/assets/img/company-logo/wisflux.png",
+    "positions": [
+      {
+        "desg": "MERN Stack Developer, Intern",
+        "duration": "May 2019 - June 2019",
+        "desc": [
+          "Worked on MERN Stack.",
+          "Tested application using javascript framework (Jest, Supertest)."
+        ]
+      }
+    ]
+  },
+  {
+    "company": "JECRC Model United Nations",
+    "logo": "/assets/img/company-logo/jecrc-mun.png",
+    "positions": [
+      {
+        "desg": "Technical Team Lead",
+        "duration": "Feb 2018 - Present",
+        "desc": [
+          "Developer and maintainer of JECRC MUN official website.",
+          "Recruiting newbies in USG Technical."
+        ]
+      }
+    ]
+  },
+  {
+    "company": "CodeDocs",
+    "logo": "/assets/img/company-logo/codedocs.png",
+    "positions": [
+      {
+        "desg": "Co-Chair",
+        "duration": "Feb 2018 - Present",
+        "desc": [
+          "Leading community in its various initiatives.",
+          "Managing all the courses initiated by CodeDocs.",
+          "Mentor of Backend Development in Web Development Course.",
+          "Coordinating with the team, and managing the team."
+        ]
+      }
+    ]
+  },
+  {
+    "company": "GirlScript Foundation",
+    "logo": "/assets/img/company-logo/girlscript.png",
+    "positions": [
+      {
+        "desg": "Chapter Lead",
+        "duration": "Oct 2018 - May 2019",
+        "desc": [
+          "Here my responsibility is to manage the team of Jaipur Chapter along with bridging the leads with the GirlScript Foundation.",
+          "In GirlScript Jaipur, we organize various meetups, workshops, and boot camps to help women and beginners to get into technology."
+        ]
+      },
+      {
+        "desg": "GirlScript Summer of Code, Contributor",
+        "duration": "June 2018 - Sep 2018",
+        "desc": ["Contributed in a project named Kranti.", "Developed on React"]
+      }
+    ]
+  },
+  {
+    "company": "India Miles Tours & Travel Pvt. Ltd.",
+    "logo": "/assets/img/company-logo/india-miles.png",
+    "positions": [
+      {
+        "desg": "Chapter Lead",
+        "duration": "Sep 2018 - Oct 2018",
+        "desc": [
+          "I was working as a front-end developer.",
+          "Creating awesome user interfaces using React.",
+          "Improving UI for better user experience.",
+          "Working with Material UI components."
+        ]
+      }
+    ]
+  },
+  {
+    "company": "KS Technological Solutions",
+    "logo": "/assets/img/company-logo/ks.jpeg",
+    "positions": [
+      {
+        "desg": "Frontend Intern",
+        "duration": "Feb 2018 - June 2018",
+        "desc": [
+          "Pratikrya the pioneer project of their company, I developed the front-end of this application using React.js",
+          "Developed official website of the organization.",
+          "Developed branding website for Pratikriya."
+        ]
+      }
+    ]
+  }
+]

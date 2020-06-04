@@ -1,0 +1,57 @@
+<div class="container-fluid" style="padding-top: 100px;">
+  <div class="mx-auto text-center">
+    <h1 class="text-center mt-3 mb-0">Contact 👨‍💻</h1>
+    <img src="/assets/img/line.png" class="mb-5" />
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-5">
+      <form
+        class="text-center"
+        action="https://script.google.com/macros/s/AKfycbzcqOghnH_fw_xBCJzFZJQHdktyG8DHvujMGMRk/exec"
+        method="POST"
+        id="contact-form"
+      >
+        <input
+          type="text"
+          class="form-control my-2"
+          id="name"
+          name="name"
+          placeholder="Name"
+        />
+        <input
+          type="email"
+          class="form-control my-2"
+          id="email"
+          name="email"
+          placeholder="Email"
+        />
+        <input
+          type="subject"
+          class="form-control my-2"
+          id="subject"
+          name="subject"
+          placeholder="Subject"
+        />
+        <textarea
+          type="text"
+          class="form-control my-2"
+          id="feedback"
+          name="feedback"
+          placeholder="Your Query"
+          rows="12"
+        ></textarea>
+        <button type="submit" class="btn btn-dark btn-lg">
+          Submit
+        </button>
+      </form>
+      <div
+        style="display: none;"
+        id="thankyou_message"
+        class="alert alert-success my-3"
+        role="alert"
+      >
+        Thanks for submitting your query 🙂!
+      </div>
+    </div>
+  </div>
+</div>
