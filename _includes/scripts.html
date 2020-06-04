@@ -28,6 +28,10 @@
 </script>
 <!-- Navbar Script -->
 <script>
+  $('.nav-item').on('click', () => {
+    $('.navbar-collapse').removeClass('show');
+  });
+
   $(document).ready(function () {
     // executes when HTML-Document is loaded and DOM is ready
     $(window).scroll(function () {

@@ -2,20 +2,20 @@
   {
     "name": "React.js",
     "img": "/assets/img/tech/react.jpg",
-    "progress": "90",
+    "progress": "75",
     "color": "bg-info"
   },
 
   {
     "name": "Node.js",
     "img": "/assets/img/tech/node.jpg",
-    "progress": "80",
+    "progress": "70",
     "color": "bg-success"
   },
   {
     "name": "MongoDB",
     "img": "/assets/img/tech/mongo.jpg",
-    "progress": "80",
+    "progress": "70",
     "color": "bg-success"
   },
   {
@@ -27,18 +27,18 @@
   {
     "name": "Gatsby",
     "img": "/assets/img/tech/gatsby.jpg",
-    "progress": "85"
+    "progress": "75"
   },
   {
     "name": "Javascript",
     "img": "/assets/img/tech/js.jpg",
-    "progress": "80",
+    "progress": "70",
     "color": "bg-warning"
   },
   {
     "name": "Git",
     "img": "/assets/img/tech/git.jpg",
-    "progress": "90",
+    "progress": "75",
     "color": "bg-danger"
   },
   {
@@ -50,35 +50,35 @@
   {
     "name": "SCSS",
     "img": "/assets/img/tech/scss.jpg",
-    "progress": "90",
+    "progress": "80",
     "color": "bg-danger"
   },
   {
     "name": "HTML",
     "img": "/assets/img/tech/html.jpg",
-    "progress": "90",
+    "progress": "75",
     "color": "bg-danger"
   },
   {
     "name": "CSS",
     "img": "/assets/img/tech/css.jpg",
-    "progress": "90"
+    "progress": "75"
   },
   {
     "name": "MySQL",
     "img": "/assets/img/tech/sql.jpg",
-    "progress": "85",
+    "progress": "70",
     "color": "bg-warning"
   },
   {
     "name": "Redux",
     "img": "/assets/img/tech/redux.jpg",
-    "progress": "50"
+    "progress": "40"
   },
   {
     "name": "GraphQL",
     "img": "/assets/img/tech/graphql.jpg",
-    "progress": "55",
+    "progress": "45",
     "color": "bg-danger"
   },
   {
@@ -90,6 +90,6 @@
   {
     "name": "Typescript",
     "img": "/assets/img/tech/ts.jpg",
-    "progress": "60"
+    "progress": "30"
   }
 ]
