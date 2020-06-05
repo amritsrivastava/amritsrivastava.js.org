@@ -23,7 +23,12 @@
       <div class="modal-body owl-carousel owl-theme">
         {% for img in project.images %}
         <div class="w-100 item">
-          <img src="{{ img }}" alt="{{ project.name }}" class="img-fluid" />
+          <img
+            src="{{ img }}"
+            loading="lazy"
+            alt="{{ project.name }}"
+            class="img-fluid"
+          />
         </div>
         {% endfor %}
       </div>
