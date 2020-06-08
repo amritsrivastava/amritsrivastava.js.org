@@ -17,9 +17,7 @@ function validateHuman(honeypot) {
 // get all data in form and return object
 function getFormData() {
   var form = document.getElementById('contact-form');
-  console.log(form);
   var elements = form.elements; // all form elements
-  console.log(elements);
   var fields = Object.keys(elements)
     .map(function (k) {
       if (elements[k].name !== undefined) {
@@ -61,13 +59,14 @@ function getFormData() {
   data.formGoogleSheetName = form.dataset.sheet || 'responses'; // default sheet name
   data.formGoogleSendEmail = form.dataset.email || ''; // no email by default
 
-  console.log(data);
+  // console.log(data);
   return data;
 }
 
 function handleFormSubmit(event) {
   // handles form submit withtout any jquery
   event.preventDefault(); // we are submitting via xhr below
+  document.getElementById('contact-submit-btn').disabled = true;
   var data = getFormData(); // get the values submitted in the form
 
   /* OPTION: Remove this comment to enable SPAM prevention, see README.md
@@ -88,16 +87,15 @@ function handleFormSubmit(event) {
     // xhr.withCredentials = true;
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhr.onreadystatechange = function () {
-      console.log(xhr.status, xhr.statusText);
-      console.log(xhr.responseText);
-      document.getElementById('contact-form').style.display = 'none'; // hide form
-      document.getElementById('thankyou_message').style.display = 'block';
-      console.log(document.getElementById('thankyou_message'));
+      // console.log(xhr.status, xhr.statusText);
+      // console.log(xhr.responseText);
+      var form = document.getElementById('contact-form');
+      // form.style.display = 'none'; // hide form
+      var thankyouMessage = document.getElementById('thankyou_message');
+      thankyouMessage.style.display = 'block';
 
-      document.getElementById('contact-form').style.display = 'block'; // hide form
-      document.getElementById('thankyou_message').style.display = 'block';
-
-      contact.reset();
+      form.reset();
+      document.getElementById('contact-submit-btn').disabled = false;
     };
     // url encode form data for sending as post data
     var encoded = Object.keys(data)
@@ -110,7 +108,7 @@ function handleFormSubmit(event) {
 }
 
 function loaded() {
-  console.log('contact form submission handler loaded successfully');
+  // console.log('contact form submission handler loaded successfully');
   // bind to the submit event of our form
   var form = document.getElementById('contact');
   form.addEventListener('submit', handleFormSubmit, false);
