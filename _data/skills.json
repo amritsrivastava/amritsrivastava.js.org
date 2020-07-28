@@ -91,5 +91,10 @@
     "name": "Typescript",
     "img": "/assets/img/tech/ts.jpg",
     "progress": "30"
+  },
+  {
+    "name": "React Native",
+    "img": "/assets/img/tech/react-native.jpg",
+    "progress": "30"
   }
 ]

@@ -5,34 +5,17 @@
   </div>
   <div class="row justify-content-center">
     {% for tech in site.data.skills %}
-    <div class="col-md-5">
-      <div class="row justify-content-center">
-        <div class="col-2 text-center">
-          <img
-            src="{{ tech.img }}"
-            alt="{{ tech.name }}"
-            loading="lazy"
-            data-toggle="tooltip"
-            data-placement="bottom"
-            title="{{ tech.name }}"
-            class="my-2 img-fluid"
-          />
-        </div>
-        <div class="col-8 align-self-center">
-          <div class="progress">
-            <div
-              class="progress-bar progress-bar-striped progress-bar-animated {{ tech.color }}"
-              role="progressbar"
-              aria-valuenow="{{ tech.progress }}"
-              aria-valuemin="0"
-              aria-valuemax="100"
-              style="width: {{ tech.progress }}%;"
-            >
-              {{ tech.progress }}%
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="skills-card m-3 text-center">
+      <img
+        src="{{ tech.img }}"
+        alt="{{ tech.name }}"
+        loading="lazy"
+        data-toggle="tooltip"
+        data-placement="bottom"
+        title="{{ tech.name }}"
+        class="my-3 img-fluid"
+      />
+      <h4>{{tech.name}}</h4>
     </div>
     {% endfor %}
   </div>
