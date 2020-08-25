@@ -1,5 +1,16 @@
 [
   {
+    "company": "MTX Group Inc.",
+    "logo": "/assets/img/company-logo/mtx.png",
+    "positions": [
+      {
+        "desg": "Consultant",
+        "duration": "Aug 2020 - Present",
+        "desc": []
+      }
+    ]
+  },
+  {
     "company": "Metacube Software Pvt. Ltd.",
     "logo": "/assets/img/company-logo/metacube.jpeg",
     "positions": [
@@ -81,7 +92,7 @@
     "logo": "/assets/img/company-logo/india-miles.png",
     "positions": [
       {
-        "desg": "Chapter Lead",
+        "desg": "Frontend Intern",
         "duration": "Sep 2018 - Oct 2018",
         "desc": [
           "I was working as a front-end developer.",
